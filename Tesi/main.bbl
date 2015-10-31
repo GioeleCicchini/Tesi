@@ -8,4 +8,24 @@
 GWT Community, \enquote{Developer’s Guide},
   \urlprefix\url{http://www.gwtproject.org/}.
 
+\bibitem{NPAPI}
+WikiPedia, \enquote{NPAPI},
+  \urlprefix\url{https://it.wikipedia.org/wiki/NPAPI}.
+
+\bibitem{XHR}
+WikiPedia, \enquote{XMLHttpRequest},
+  \urlprefix\url{https://it.wikipedia.org/wiki/XMLHttpRequest}.
+
+\bibitem{AJAX}
+WikiPedia, \enquote{Asynchronous JavaScript and XML},
+  \urlprefix\url{https://it.wikipedia.org/wiki/AJAX}.
+
+\bibitem{DOM}
+WikiPedia, \enquote{Document Object Model},
+  \urlprefix\url{https://it.wikipedia.org/wiki/Document_Object_Model}.
+
+\bibitem{IDE}
+WikiPedia, \enquote{Integrated Development Environment},
+  \urlprefix\url{https://it.wikipedia.org/wiki/Integrated_development_environment}.
+
 \end{thebibliography}

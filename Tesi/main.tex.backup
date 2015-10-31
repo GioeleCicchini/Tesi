@@ -32,13 +32,13 @@
 %% Supporto allo stile per il codice PHP creato da Nicola Sacco e Daniele Di Pompeo
 \input{progrLang.sty}
 %% Supporto al glossario
-\usepackage[style=altlist, toc=true]{glossary} % can be obtained from http://www.ctan.org/tex-archive/macros/latex/contrib/glossary/
+\usepackage[numberedsection]{glossaries} 
 %% Richiesta di creazione del glossario
-\makeglossary
+\makeglossaries 
 %% Inclusione del file con i termini del glossario
+\input{glossario/termini.tex}
 
-
-
+\makeindex
 \titolo{GWT}
 \laureando{Gioele Cicchini 221034}
 \relatore{Serafino Cicerone}
@@ -61,7 +61,7 @@
 %\setspecialistica
 
 \begin{document}
-\input{glossario/termini.tex}
+
 \maketitle
    
   \begin{dedication}
@@ -79,13 +79,12 @@
   \input{capitoli/Conclusione.tex}
   
 
-\appendice
- \printglossary
- 
- \bibliography{bibliografia/bibliografia}{}
+ \bibliography{bibliografia/bibliografia}
  \bibliographystyle{tufte}
- 
+\appendice
+
  \input{appendici/appendice.tex} 
+\printglossaries
 \begin{dedication}
   
 \end{dedication}

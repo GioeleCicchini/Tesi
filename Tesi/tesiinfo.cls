@@ -205,8 +205,7 @@
 \let\l@table\l@figure
 
 \renewenvironment{thebibliography}[1]
-     {\chapter*{\bibname
-        \@mkboth{\uppercase{\bibname}}{\uppercase{\bibname}}}%
+     {\chapter{\bibname}%
       \list{\@biblabel{\arabic{enumiv}}}%
            {\settowidth\labelwidth{\@biblabel{#1}}%
             \leftmargin\labelwidth
@@ -217,7 +216,6 @@
             \renewcommand\theenumiv{\arabic{enumiv}}}%
       \sloppy\clubpenalty4000\widowpenalty4000%
       \sfcode`\.=\@m\relax
-      \addcontentsline{toc}{chapter}{\bibname}
       %\singlespacing}
       }
      {\def\@noitemerr
@@ -460,7 +458,7 @@ Relatore esterno:\\[0ex]}
 
 \newcommand{\bibliografia}[1]{%
   \setbibliography
-  \bibliographystyle{plain}
+  \bibliographystyle{tufte}
   \bibliography{#1}
   %\unsetbibliography
 }

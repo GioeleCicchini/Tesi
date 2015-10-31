@@ -55,12 +55,9 @@
 		Il compilatore GWT esegue ottimizzazioni globali in tutto il codice in più rimuove codice morto, ovvero
 		parti inutilizzate e ottimizza le stringhe.Può anche dividere il codice in più parti così da dividere
 		il codice Javascript in più frammenti ed ottimizzando quindi il tempo di avvio delle applicazioni di grandi
-		dimensioni.
-		Speed Tracer è una nuova estensione Chrome in 
-		GWT che consente di diagnosticare problemi di prestazioni nel browser .
+		dimensioni
+		
 		\subsubsection{Eseguire}
-		Quando si è pronti e l'applicazione è finita , GWT compila il codice sorgente di Java in file JavaScript ottimizzati, che vengono eseguiti automaticamente 
-		su tutti i principali browser, così come i browser mobili per Android e l'iPhone .
 		
 \section{Installare GWT}
 	  \subsection{Installazione GWT SDK}

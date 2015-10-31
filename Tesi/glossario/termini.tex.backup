@@ -7,5 +7,3 @@
 \newglossaryentry{API}{name={API}, description={Application Programming Interface}}
 \newglossaryentry{XHR}{name={XHR}, description={XMLHttpRequest\cite{XHR}}}
 \newglossaryentry{DOM}{name={DOM}, description={Document Object Model\cite{DOM}}}
-\newglossaryentry{AJAX}{name={AJAX}, description={Asynchronous JavaScript and XML\cite{AJAX}}}
-\newglossaryentry{IDE}{name={IDE}, description={Integrated development environment\cite{IDE}}}
