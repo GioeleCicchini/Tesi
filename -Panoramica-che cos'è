@@ -1,0 +1,9 @@
+-Panoramica 
+	-che cos'è
+
+	GWT è uno strumento di sviluppo per la costruzione e l'ottimizzazione di applicazioni browser-based complesse.
+	il suo scopo è quello di alzare la produttività e le prestazioni delle applicazioni senza che lo sviluppatore si debba preoccupare dei problemi legati al cross-browsing quindi propri del linguaggio javascript e delle XMLHttpRequest.
+	GWT e usato in molti prodotti Google come AdWords,AdSense,Flights(far vedere codice applicazione),Hotel Finder, Offers, Wallet, Blogger.
+	GWT è open source ed è distribuito sotto licenza Apache 2.0.
+	I punti di forza di GWT sono la riusabilità del codice , la possibilità di creare pagine web dinamiche mediante chiamate asincrone AJAX, il bookmarking, la localizzazione e la portabilità fra differenti browser
+	

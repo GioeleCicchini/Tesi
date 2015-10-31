@@ -1,0 +1,12 @@
+@misc{ MDEarticle01,
+       author = "Mellor Stephen J.,  Clark Anthony N.,  Futagami Takao",
+       title = "Model-driven development - Guest editor's introduction",
+       year = "2003"}
+@misc{ Larman,
+       author = "Craig Larman",
+       title = "Applicare UML e i Pattern",
+       year = "2005"}
+@misc{ Ciao,
+       author = "Gioele",
+       title = "Design Patterns, Elementi per il riuso di software ad oggetti",
+       year = "2002"}

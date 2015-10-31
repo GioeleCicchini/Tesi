@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem{GWT}
+GWT Community, \enquote{Developer’s Guide},
+  \urlprefix\url{http://www.gwtproject.org/}.
+
+\end{thebibliography}

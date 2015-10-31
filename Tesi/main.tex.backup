@@ -1,0 +1,99 @@
+\documentclass[hidelinks,a4paper,12pt]{tesiinfo}
+
+%%Pacchetti utili anche se non necessari
+\usepackage{amsfonts}
+
+\usepackage{amsmath}
+
+\usepackage{latexsym}
+
+\usepackage{tabularx}
+%% Supporto alla lingua italiana, dipende dal vostro ambiente latex
+\usepackage[italian]{babel}
+%% Supporto per i caratteri accentati
+\usepackage[utf8]{inputenc}
+%% Supporto alle figure
+\usepackage{graphicx}
+%% Supporto alle figure wrappate nel testo
+ \usepackage{wrapfig}
+%% Supporto alle didascalie
+\usepackage{caption}
+%% Supporto alle didascalie per figure composte
+\usepackage{subcaption}
+%% Supporto ai link esterni (URL)
+\usepackage[bookmarks=true]{hyperref}
+
+%% Supporto alla creazione di colonne multiple nel documento
+\usepackage{multicol}
+%% Supporto al comando \cite per BibTex
+\usepackage{cite}
+%% Supporto per i listati di codice
+\usepackage{listings}
+%% Supporto allo stile per il codice PHP creato da Nicola Sacco e Daniele Di Pompeo
+\input{progrLang.sty}
+%% Supporto al glossario
+\usepackage[style=altlist, toc=true]{glossary} % can be obtained from http://www.ctan.org/tex-archive/macros/latex/contrib/glossary/
+%% Richiesta di creazione del glossario
+\makeglossary
+%% Inclusione del file con i termini del glossario
+
+
+
+\titolo{GWT}
+\laureando{Gioele Cicchini 221034}
+\relatore{Serafino Cicerone}
+\annoaccademico{2015/2016}
+
+%%Usare i seguenti comandi se si ha un correlatore:
+%\setcorrelatoreuno
+%\correlatoreuno{Nome e cognome del correlatore}
+
+%%Usare i seguenti comandi se si hanno due correlatori (NB: questi comandi sono alternativi a quelli precendenti):
+%\setcorrelatoredue
+%\correlatoreuno{Nome e cognome del primo correlatore}
+%\correlatoredue{Nome e cognome del secondo correlatore}
+
+%%Usare i seguenti comandi se si ha un relatore esterno (NB: questi comandi possono essere utilizzati con quelli precedenti):
+%\setesterno
+%\relatoreesterno{Titolo, nome e cognome del relatore esterno}
+
+%%Usare i seguenti comandi se si sta scrivendo una tesi di laurea specialistica
+%\setspecialistica
+
+\begin{document}
+\input{glossario/termini.tex}
+\maketitle
+   
+  \begin{dedication}
+  \textit{Dedica a piè pagina}
+  \end{dedication}
+
+
+
+\contentspage
+  
+  \input{capitoli/Introduzione.tex}
+  \input{capitoli/Framework_WA.tex}
+   \input{capitoli/GWT.tex}
+ \input{capitoli/Progetto.tex}
+  \input{capitoli/Conclusione.tex}
+  
+
+\appendice
+ \printglossary
+ 
+ \bibliography{bibliografia/bibliografia}{}
+ \bibliographystyle{tufte}
+ 
+ \input{appendici/appendice.tex} 
+\begin{dedication}
+  
+\end{dedication}
+\begin{dedication}
+  \textit{Dedica a fine pagina}
+\end{dedication}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

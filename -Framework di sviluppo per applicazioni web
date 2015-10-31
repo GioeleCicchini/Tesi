@@ -1,0 +1,26 @@
+-Framework di sviluppo per applicazioni web
+
+In informatica un framework è un'astrazione software la quale realizzazione fornisce funzionalità generiche che possono essere modificate o aggiunte selettivamente dal codice scritto dall'utente fornendo in tal modo uno specifico compito all'applicazione.
+Un framework facilita lo sviluppo di applicazioni in quanto fornisce una base di componenti riutillizabili in diversi progetti senza dover riscrivere queste componenti comuni ma mettendole a disposizione del programmatore.
+Il fine ultimo di un framework è appunto quello di costruire una base di partenza nello sviluppo, come le fondamenta su cui poi si potranno costruire edifici diversissimi.
+Nello Sviluppo di un applicazione web le tecnologie possono essere tra le più varie a partire dai linguaggi di programmazione , alla scelta dei framework di sviluppo, per cui una panoramica generale su questi ultimi aiuta a capire quale soluzione adottare rispetto alla particolarità del progetto che si sta sviluppando.
+Per Capire bene i framework e il perchè sono fondamentali è bene fare una panoramica sul contesto in cui essi sono utilizzati e quindi anche alla storia e alla loro evoluzione.
+per applicazione web si intende un applicativo che viene distribuito attraverso la rete sfuttando un architettura client/server.
+un generico client accede connettendosi a funzionalità applicative residenti in un application server (server HTTP) utilizzando come terminali utente un generico web browser.
+questo modello applicativo è divenuto piuttosto popolare alla fine degli anni novanta con la diffusione di internet in un contesto di web dinamico.
+Le prime applicazioni client/server non erano web-based per cui il client richiedeva un istallazione sulla workstation dell'utente.
+Ogni aggiornamento del lato server(aggiunta di funzionalita)si trasformava in aggiornamento di tutte le versioni client presenti sulle macchine dell utente ,comportando così un onere economico non indifferente per il produttore software.
+Ovviamente le applicazioni web-oriented non soffrivano di questo grave problema in quanto una volta effettuata una richiesta al server quest'ultimo forniva una pagina statica interpretabile e visualizzabile dal browser, per cui il browser diventa l'applicativo universale per eseguire tutte le applicazioni web in modo indipendente dal produttore del software.
+Per sua natura un applicazione web può presentarsi con diverse strutture ed organizzazioni logiche, poiché di fatto racchiude in sé, allo stesso tempo, un modello tecnico ed una filosofia di sviluppo. Tuttavia, sul piano dell'informatica teorica è possibile riconoscere una strutturazione tipica su più livelli 
+- logica di presentazione (o presentation layer): primo livello associabile al terminale di fruizione, visualizzazione o presentazione a favore dell'utente (front-end) attraverso il motore di rendering del web browser del client ovvero l'interfaccia utente
+-logica di business (o business logic): secondo livello costituito dal motore applicativo, ovvero un core applicativo (back-end) o logica applicativa o di elaborazione presente tipicamente su un application server e costituita da codice sorgente in un qualche linguaggio di sviluppo dinamico lato-server
+-strato dati (o data layer): terzo eventuale livello riconducibile al motore database associato  per la gestione della persistenza dei dati e la loro interrogazione attraverso opportuni tool, ricevendo e soddisfacendo le richieste di lettura/scrittura sul DB da parte della logica applicativa.
+Un'applicazione web si caratterizza dunque essenzialmente per il trasferimento di dati o informazioni da uno strato all'altro ovvero dal front-end fino al back-end.
+Per rispettare questi vincoli e ottenere qualità e flessibilità si usano i framework che offrono logiche a livelli strutturate così da fornire delle linee guida al programmatore per generare codice di qualita. 
+Proprio in questo panorama possiamo distinguere diversi tipi di framework, quelli front-end che si preoccupano della presentazione dell'applicazione, e quelli front-end che si preoccupano della logica applicativa.
+anche per la gestione della persistenza ci sono framework specifici.
+negli ultimi anni le applicazioni sono diventate sempre più interattive, questa interattività viene resa  possibile grazie all'uso di codice interpretato direttamente dal brawser ed inviato insieme alle pagine web generate dal server.
+l'uso di codice apre un nuovo mondo allo sviluppo di applicazioni web perchè si può pensare di distribuire l'applicazione ovvero la logica di business nel codice che gira sul client piuttosto che quello server.
+abbiamo così che un applicazione che girerà quasi tutta sul client prenderà il nome di Fat Client mentre una che girerà maggiormente sul server si dirà Thin   
+
+
