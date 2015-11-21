@@ -1,10 +1,66 @@
-\chapter{Framekork di Sviluppo Web}
-Capitolo 2
-\begin{itemize}
- \item item di prova 1
- \item item di prova 2
-\end{itemize}
 
-\paragraph{Paragrafo}
- ciao irene come va?
+\chapter{Framekork di Sviluppo Web}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\section{Definizione}
+Un framework in informatica e specificatamente nello sviluppo software, 
+è un'architettura (o più impropriamente struttura) logica di supporto
+(spesso un'implementazione logica di un particolare design pattern) su 
+cui un software può essere progettato e realizzato, spesso facilitandone 
+lo sviluppo da parte del programmatore.
+
+Un framework è un'astrazione software la quale realizzazione fornisce funzionalità 
+generiche che possono essere modificate o aggiunte selettivamente dal codice scritto 
+dall'utente fornendo in tal modo uno specifico compito all'applicazione. Un framework
+facilita lo sviluppo di applicazioni in quanto fornisce una base di 
+componenti riutillizabili in diversi progetti senza dover riscrivere queste componenti
+comuni ma mettendole a disposizione del programmatore.
+Il fine ultimo di un framework è appunto quello di costruire una base di partenza nello 
+sviluppo, come le fondamenta su cui poi si potranno costruire edifici diversissimi.
+
+\section{Tipologie di framework}
+	  Attualmente ci sono diversi approcci nello scrivere un'applicazione web.
+	  Nello sviluppo delle applicazioni si deve tenere conto
+	  dell'architettura fisica su cui esse girano, ovvero architettura web client-server.
+	  Sul client è presente un web browser che richiede risorse dinamiche al server. Quest'ultimo elabora 
+	  la richiesta ed invia i risultati al client. Esso può anche estendere le sue capacità ricevendo 
+	  dal server pezzi di codice che il browser esegue. Progettare un applicazione web quindi prevede anche 
+	  quanta responsabilità dare al client piuttosto che al server, per cui avremo applicazioni fat-client se 
+	  esso farà molta computazione grazie al codice ricevuto dal server,
+	  mentre thin-client se la maggior parte della logica applicativa è sul server.
+	  La scelta del framework dipenderà quindi dall'approccio che sceglieremo di usare.
+	  \subsection{Client-Side}
+	  Il codice client-side è scritto solitamente in un linguaggio di scripting come JavaScrip. Esso 
+	  interagisce direttamente con il DOM permettendo di gestire caselle di testo, pulsanti, 
+	  list-box, etc.
+	  Ci sono molti vantaggi nello scripting lato client,
+	  tra cui una più veloce risposta dell'applicazione, più interattività e meno overhead sul server web.
+	  Ci sono moltissimi framework che permettono di sviluppare client-side come Angular, Backbone, Ember etc.
+	  Uno svantaggio di quest'ultimi è che una volta terminata la programmazione dell'applicazione ci saranno comunque delle attività 
+	  demandate al server come l'autenticazione oppure la persistenza dei dati.
+	  \subsection{Server-Side}
+	  Il codice server-side produce pagine web che poi vengono trasferite sul client.
+	  Quando un client richiede un servizio web, come la richiesta di una pagina, l'applicazione
+	  sul server comporrà una risposta (Pagine Dinamiche) che attraverso protocollo http verrà ricevuta dal client e 
+	  visualizzata sul browser.
+	  Esempi di funzionalità offerte lato server sono il riconoscimento degli utenti, 
+	  la convalida di form inserite dall'utente,
+	  il salvataggio e il recupero dei dati e la navigazione ad altre pagine.
+	  Lo svantaggio dell'elaborazione server-side è l'indroduzione di overhead sul server, la riduzione
+	  delle prestazioni generali e l'attesa da parte dell'utente dell'elaborazione per poter 
+	  visualizzare il contenuto, quenst'ultima incide sull'usabiltà percepita dall'utente abbassandola.
+	  Esistono moltissimi framework per poter sviluppare server-side come CakePHP, Django, Ruby on Rails, con 
+	  molta scelta anche sui possibili linguaggi di programmazione.
+	 
+\section{Caratteristiche}
+	  \subsection{Architettura Logica}
+	  \subsection{Blocchi per funzioni ripetitive}
+	  \subsection{Processi di Sviluppo}
+		      \subsubsection{Indietro}
+		      \subsubsection{Avanti}
+	  \subsection{Catalogo Framekork}
+	  \subsection{Confronto}
+\section{Come Scegliere}
+\section{GWT e mercato}
  

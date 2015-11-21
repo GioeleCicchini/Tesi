@@ -1,0 +1,28 @@
+Si vuole realizzare un applicazione web che fornisca al generico utente 
+iscritto un servizio online di acquisto merci di un supermercato.
+più in particolare si vuole mettere a disposizione dell'utente delle ricette di pietanze 
+create dal supermercato stesso o da altri utenti , servizi esterni .
+Il sistema tradurrà le ricette in una lista della spesa che potranno anche essere customizzate 
+dall'utente rimuovendo elementi o cambiandoli con altri di altre marche.
+si vuole fornire anche all'utente una pianificazione della spesa settimanale.
+il sistema semplificherà al supermercato anche la gestione degli ordini effettuati dagli utenti.
+
+
+una volta entrato nell'applicazione l'utente potrà vedere un anteprima del sito 
+e potrà scegliere delle ricette.
+una volta scelta la ricetta il sistema proporra una lista della spesa relativa alla ricetta selezionata.
+Per effettuare l'ordine l'utente potrà scegliere se farsi portare la spesa comodamente a casa sua oppure se lui 
+andrà al supermercato solo a ritirare la spesa precedentemente preparata.
+l'utente ha la possibilità di inserire un piano di dieta settimanale ed impostare quante volte vuole andare al supermercato
+durante la settimana ed il sistema organizzerà il ritiro all'ora stabilita dall'utente.
+l'utente per poter effettuare l'ordine dovrà registrarsi.
+ 
+
+l'utente registrato e anche in grado di poter inserire delle nuove ricette nel sistema in 2 modi
+- si prevede un interfacciamento con il servizio giallozafferano, ovvero l'utente potra inserire il link della ricetta del sito giallo 
+zafferano e il sistema automaticamente aggiornera il suo catalogo delle ricette e renderà disponibile l'acquisto di quest'ultima.
+(in futuro possibili interfacciamenti verso altri siti di ricette: creazione rss con ricette ed ingredienti?)
+- si prevede anche che l'utente possa inserire manualmente una sua ricetta.
+
+
+

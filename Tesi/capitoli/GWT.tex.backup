@@ -7,28 +7,26 @@
 
 \section{Panoramica}
 	  \subsection{Che cos'è}
-	\gls{GWT} è uno strumento di sviluppo per la costruzione e l'ottimizzazione di applicazioni browser-based complesse.
-	il suo scopo è quello di alzare la produttività e le prestazioni delle applicazioni senza che lo sviluppatore
+	\gls{GWT} è uno strumento di sviluppo per la costruzione e l'ottimizzazione di applicazioni browser-based complesse. il suo scopo è quello di alzare la produttività e le prestazioni delle applicazioni senza che lo sviluppatore
 	si debba preoccupare dei problemi legati al cross-browsing quindi propri del linguaggio javascript e delle XMLHttpRequest.
-	GWT e usato in molti prodotti Google come AdWords,AdSense,Flights (far vedere codice applicazione),Hotel Finder, Offers, Wallet, Blogger.
+	GWT e usato in molti prodotti Google come AdWords, AdSense, Flights (far vedere codice applicazione), Hotel Finder, Offers, Wallet, Blogger.
 	GWT è open source ed è distribuito sotto licenza Apache 2.0.
-	I punti di forza di GWT sono la riusabilità del codice , la possibilità di 
-	creare pagine web dinamiche mediante chiamate asincrone AJAX, il bookmarking, la localizzazione e la portabilità fra differenti browser
+	I punti di forza di GWT sono la riusabilità del codice, la possibilità di 
+	creare pagine web dinamiche mediante chiamate asincrone AJAX, il bookmarking, la localizzazione e la portabilità fra differenti browser.
 	\newpage
 	  \subsection{Componenti software}
-	    I componenti software principali sono 4
+	    I componenti software principali sono 4.
 		\subsubsection{GWT Java-to-Javascript Compiler}
-		Traduce il codice scritto in Java in codice Javascript Ottimizzato
+		Traduce il codice scritto in Java in codice Javascript Ottimizzato.
 		\subsubsection{GWT Development Mode}
 		Permette agli sviluppatori di eseguire le loro applicazioni GWT in \gls{DevMode} (l'applicazione Gira su JVM
-		senza essere compilata in Javascript),\gls{DevMode} viene supportato dall'uso di un plugin nativo
+		senza essere compilata in Javascript), \gls{DevMode} viene supportato dall'uso di un plugin nativo
 		chiamato Google Web Toolkit Developer Plugin che è disponibile per i principali browser.
 		Con l'abbandono da parte dei vari browser del supporto ai plugin \gls{NPAPI} 
-		\cite{NPAPI},è stato necessario trovare una soluzione per poter fare debugging,
-		il SuperDevMode è appunto la soluzione.
-		Esso rimpiazza il \gls{DevMode} con un approccio che nei Browser moderni 
-		funziona meglio.Come prima esso aiuta li sviluppatori a ricompilare velocemente il codice e a 
-		vedere il risultato sul browser.Offre ai programmatori anche la possibilità di ispezionare
+		\cite{NPAPI}, è stato necessario trovare una soluzione per poter fare debugging,
+		il SuperDevMode è appunto la soluzione. Esso rimpiazza il \gls{DevMode} con un approccio che nei Browser moderni 
+		funziona meglio. Come prima esso aiuta li sviluppatori a ricompilare velocemente il codice e a 
+		vedere il risultato sul browser. Offre ai programmatori anche la possibilità di ispezionare
 		il codice mentre l'applicazione è in esecuzione.
 		\subsubsection{JRE emulation libray}
 		Implementazione in Javascript delle librerie standard di Java come ad esempio
@@ -45,19 +43,22 @@
 		Costruire applicazioni AJAX in questo modo è molto più produttivo grazie ad un più alto livello di astrazione 
 		dei concetti comuni delle applicazioni web come manipolazione del \gls{DOM} e comunicazione \gls{XHR} \cite{XHR}.
 		Tutto ciò che si può fare con \gls{DOM} del browser e JavaScript può essere fatto in GWT,
-		compresa l'interazione con JavaScript scritto a mano .
+		compresa l'interazione con JavaScript scritto a mano.
 		\subsubsection{Debuggare}
 		È possibile eseguire il debug di applicazioni \gls{AJAX} nel \gls{IDE} di sviluppo che si sta usando, 
-		proprio come se fosse un applicazione desktop ,oppure sul browser con la codifica JavaScript attraverso i Tool
+		proprio come se fosse un applicazione desktop, oppure sul browser con la codifica JavaScript attraverso i Tool
 		di debug.
 		\subsubsection{Ottimizzare}
 		\gls{GWT} contiene due potenti strumenti per la creazione di applicazioni web ottimizzate.
 		Il compilatore GWT esegue ottimizzazioni globali in tutto il codice in più rimuove codice morto, ovvero
-		parti inutilizzate e ottimizza le stringhe.Può anche dividere il codice in più parti così da dividere
+		parti inutilizzate e ottimizza le stringhe. Può anche dividere il codice in più parti così da dividere
 		il codice Javascript in più frammenti ed ottimizzando quindi il tempo di avvio delle applicazioni di grandi
-		dimensioni
-		
+		dimensioni.
+		Speed Tracer è una nuova estensione Chrome in 
+		GWT che consente di diagnosticare problemi di prestazioni nel browser.
 		\subsubsection{Eseguire}
+		Quando si è pronti e l'applicazione è finita, GWT compila il codice sorgente di Java in file JavaScript ottimizzati, che vengono eseguiti automaticamente 
+		su tutti i principali browser, così come i browser mobili per Android e l'iPhone.
 		
 \section{Installare GWT}
 	  \subsection{Installazione GWT SDK}

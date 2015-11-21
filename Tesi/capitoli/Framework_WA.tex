@@ -1,3 +1,4 @@
+
 \chapter{Framekork di Sviluppo Web}
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
@@ -11,15 +12,65 @@ lo sviluppo da parte del programmatore.
 
 Un framework è un'astrazione software la quale realizzazione fornisce funzionalità 
 generiche che possono essere modificate o aggiunte selettivamente dal codice scritto 
-dall'utente fornendo in tal modo uno specifico compito all'applicazione.Un framework
+dall'utente fornendo in tal modo uno specifico compito all'applicazione. Un framework
 facilita lo sviluppo di applicazioni in quanto fornisce una base di 
 componenti riutillizabili in diversi progetti senza dover riscrivere queste componenti
 comuni ma mettendole a disposizione del programmatore.
 Il fine ultimo di un framework è appunto quello di costruire una base di partenza nello 
 sviluppo, come le fondamenta su cui poi si potranno costruire edifici diversissimi.
 
+\section{Tipologie di framework}
+	  Attualmente ci sono diversi approcci nello scrivere un'applicazione web.
+	  Nello sviluppo delle applicazioni si deve tenere conto
+	  dell'architettura fisica su cui esse girano, ovvero architettura web client-server.
+	  Sul client è presente un web browser che richiede risorse dinamiche al server. Quest'ultimo elabora 
+	  la richiesta ed invia i risultati al client. Esso può anche estendere le sue capacità ricevendo 
+	  dal server pezzi di codice che il browser esegue. Progettare un applicazione web quindi prevede anche 
+	  quanta responsabilità dare al client piuttosto che al server, per cui avremo applicazioni fat-client se 
+	  esso farà molta computazione grazie al codice ricevuto dal server,
+	  mentre thin-client se la maggior parte della logica applicativa è sul server.
+	  La scelta del framework dipenderà quindi dall'approccio che sceglieremo di usare.
+	  \subsection{Client-Side}
+	  Il codice client-side è scritto solitamente in un linguaggio di scripting come JavaScrip. Esso 
+	  interagisce direttamente con il DOM permettendo di gestire caselle di testo, pulsanti, 
+	  list-box, etc.
+	  Ci sono molti vantaggi nello scripting lato client,
+	  tra cui una più veloce risposta dell'applicazione, più interattività e meno overhead sul server web.
+	  Ci sono moltissimi framework che permettono di sviluppare client-side come Angular, Backbone, Ember etc.
+	  Uno svantaggio di quest'ultimi è che una volta terminata la programmazione dell'applicazione ci saranno comunque delle attività 
+	  demandate al server come l'autenticazione oppure la persistenza dei dati.
+	  \subsection{Server-Side}
+	  Il codice server-side produce pagine web che poi vengono trasferite sul client.
+	  Quando un client richiede un servizio web, come la richiesta di una pagina, l'applicazione
+	  sul server comporrà una risposta (Pagine Dinamiche) che attraverso protocollo http verrà ricevuta dal client e 
+	  visualizzata sul browser.
+	  Esempi di funzionalità offerte lato server sono il riconoscimento degli utenti, 
+	  la convalida di form inserite dall'utente,
+	  il salvataggio e il recupero dei dati e la navigazione ad altre pagine.
+	  Lo svantaggio dell'elaborazione server-side è l'indroduzione di overhead sul server, la riduzione
+	  delle prestazioni generali e l'attesa da parte dell'utente dell'elaborazione per poter 
+	  visualizzare il contenuto, quenst'ultima incide sull'usabiltà percepita dall'utente abbassandola.
+	  Esistono moltissimi framework per poter sviluppare server-side come CakePHP, Django, Ruby on Rails, con 
+	  molta scelta anche sui possibili linguaggi di programmazione.
+	 
 \section{Caratteristiche}
+	  Per sua natura un'applicazione web può presentarsi con diverse strutture ed organizzazioni
+	  logiche, poiché di fatto racchiude in sé, allo stesso tempo, un modello tecnico ed una filosofia di sviluppo.
+	  Tuttavia, sul piano dell'informatica teorica è possibile riconoscere una strutturazione tipica su più livelli.
 	  \subsection{Architettura Logica}
+		  Tipicamente possiamo avere 3 livelli:
+	  \begin{itemize}
+	   \item  logica di presentazione (Presentation Layer): primo livello associabile al terminale di fruizione, 
+		  visualizzazione o presentazione a favore dell'utente (front-end) attraverso il motore di rendering del 
+		  web browser ovvero l'interfaccia utente.
+	   \item  logica di business (o business logic): secondo livello costituito dal motore applicativo, ovvero un core applicativo (back-end) 
+		   o logica applicativa o di elaborazione presente tipicamente su un application server e 
+		   costituita da codice sorgente in un qualche linguaggio di sviluppo dinamico lato-server.
+	   \item strato dati (o data layer): terzo eventuale livello riconducibile al motore database associato 
+		 per la gestione della persistenza dei dati e la loro interrogazione attraverso opportuni tool, 
+		 ricevendo e soddisfacendo le richieste di lettura/scrittura sul DB da parte della logica applicativa.
+	  \end{itemize}
+	    Un'applicazione web si caratterizza dunque essenzialmente per il trasferimento di dati o informazioni da uno strato all'altro ovvero dal front-end fino al back-end.
 	  \subsection{Blocchi per funzioni ripetitive}
 	  \subsection{Processi di Sviluppo}
 		      \subsubsection{Indietro}
